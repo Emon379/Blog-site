@@ -1,0 +1,167 @@
+/*google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+/*global css*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body,h1,h2,h3,h4,h5,h6,a,p,span,input{
+	font-family: 'Playfair Display', serif;
+}
+a,a:hover{
+	text-decoration: none;
+}
+/*header section css start here*/
+
+.header{
+	width: 100%;
+}
+.navbar{
+	margin:20px 0;
+}
+.nav-item{
+	margin-right: 53px;
+	text-transform: uppercase;
+}
+.nav-link{
+	color: #b4ad9e !important;
+	transition: all 0.5s ease-in-out;
+}
+.nav-link:hover{
+	color: #000 !important;
+	transition: all 0.5s ease-in-out;
+}
+/*header section css stop here*/
+
+/*single blog section css start frome here*/
+
+.single-blog{
+	width: 100%;
+}
+.blog-desc{
+	margin: 60px;
+}
+.blog-desc span{
+	color: #b4ad9e;
+	text-transform: uppercase;
+}
+
+.blog-desc h1{
+	margin: 12px 0;
+}
+.blog-desc p{
+	margin-bottom: 2rem;
+}
+/*single bolg css stop here*/
+
+/*blog gallery css start her*/
+.blog-gallery{
+	width: 100%;
+	padding: 70px;
+}
+.row{
+	padding: 69px;
+}
+.post{
+	margin: 40px;
+}
+.post img{
+	margin-bottom: 20px;
+}
+.post-desc span{
+	color: #b4ad9e;
+	text-transform: uppercase;
+}
+.post-desc h2{
+	margin: 18px 0;
+	font-size: 28px;
+}
+.post-desc a{
+	color: #b4ad9e;
+}
+/*blog gallery css stop her*/
+/*subscription section css start here*/
+.subscription{
+	width: 100%;
+	background-color: #f0f0f0;
+	text-align: center;
+	padding: 50px 0;
+}
+.subscription h2{
+	font-weight: 400px !important;
+	margin-bottom: 2rem;
+}
+form input{
+	padding: 18px 0px 5px 11px;
+    width: 40%;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid black;
+}
+
+form input:focus{
+	outline:none;
+}
+form input::placeholder{
+	color:#20c997;
+}
+form{
+	position: relative;
+}
+form i{
+	position: absolute;
+	top: 25px;
+    right: 31%;
+}
+/*subscription section css start here*/
+/*load more section css start her*/
+.load-more{
+	text-align: center;
+	margin: 50px 0 50px 0;
+}
+.load-more button{
+	padding: 20px 38px;
+    font-size: 18px;
+    background: transparent;
+    border: 1px solid black;
+    color: #b4ad9e;
+}
+.load-more button:hover{
+    color: #000 !important;
+	transition: all 0.5s ease-in-out;
+}
+/*load more section css stop her*/
+/*footer section css start here*/
+.footer-section{
+	width: 100%;
+	background-color:#f0f0f0;
+	margin: 65px 0 0px 0px;
+}
+.footer-section ul li{
+	list-style: none;
+	display: inline-block;
+
+}
+.left{
+	text-align: left;
+}
+.right{
+	text-align: right;
+}
+.list-item a{
+	margin-left: 20px;
+	color:#6c757d;
+}
+.list-item ul a:hover{
+	color: #000 !important;
+	transition: all 0.5s ease-in-out !important;
+
+}
+.list-item li a i{
+	color: #007bff;
+}
+/*footer section css stop here*/
+
